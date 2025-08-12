@@ -1,0 +1,17 @@
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.cart-icon {
+  height: 50px;
+  width: 50px;
+  color: rgba(8, 140, 3, 1);
+}
+@media screen and (min-width: 768px) {
+  .empty-cart-container {
+    height: 57vh;
+  }
+}

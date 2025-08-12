@@ -1,0 +1,109 @@
+.back-arrow-checkout-container {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding-left: 10px;
+}
+.back-arrow-icon {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+.checkout {
+  font-family: 'inter';
+  font-size: 16px;
+}
+.cart-items-count {
+  font-family: 'inter';
+  font-size: 12px;
+  text-align: end;
+}
+.cart-list-container {
+  scrollbar-width: 0;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.total-price-checkout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  position: fixed;
+  bottom: 5px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  padding-right: 30px;
+}
+.checkout-button {
+  background-color: rgba(8, 140, 3, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+.product-details-checkout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.total-price-container {
+  display: flex;
+}
+.total-heading {
+  font-family: 'inter';
+  font-size: 16px;
+  font-weight: 300;
+}
+.cart-items-heading {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .product-details-checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .product-details-checkout-container {
+    justify-content: flex-start;
+    border: 1px solid rgba(216, 216, 216, 1);
+    border-radius: 16px;
+    padding: 8px;
+    gap: 8px;
+    width: 80%;
+  }
+  .back-arrow-checkout-container {
+    display: none;
+  }
+  .cart-items-count {
+    display: none;
+  }
+  .cart-items-heading {
+    display: block;
+    font-family: 'inter';
+    font-size: 25px;
+    width: 80%;
+  }
+  .checkout-button {
+    margin-left: 30px;
+  }
+  .total-price-checkout-container {
+    position: static;
+    justify-content: flex-end;
+    margin-bottom: 0;
+  }
+  .cart-container {
+    overflow: auto;
+    scrollbar-width: none;
+    margin-bottom: 250px;
+    margin-top: 120px;
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,35 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.not-found-img {
+  height: 180px;
+  width: 215px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    height: 375px;
+    width: 445px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+h1 {
+  color: rgba(25, 25, 25, 1);
+  font-family: 'roboto';
+  font-size: 16px;
+}
+
+p {
+  color: rgba(25, 25, 25, 0.8);
+  font-family: 'roboto';
+  font-size: 14px;
+}
