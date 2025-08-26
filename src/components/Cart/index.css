@@ -71,7 +71,6 @@
     list-style-type: none;
     padding-left: 0;
     width: 100%;
-    overflow-y: auto;
   }
   .item-container {
     display: flex;
@@ -125,6 +124,7 @@
     font-style: Medium;
     font-size: 20px;
     color: rgba(25, 25, 25, 1);
+    width: 500px;
   }
   .weight {
     font-family: Inter;
