@@ -1,0 +1,113 @@
+.product {
+  min-width: 287px;
+  min-height: 350px;
+  gap: 16px;
+  padding: 40px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(216, 216, 216, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-price {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  vertical-align: middle;
+}
+.product-details-containers {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.name-weight-price {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.product-name {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  vertical-align: middle;
+  color: rgba(25, 25, 25, 1);
+}
+.product-weight {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  vertical-align: middle;
+  color: rgba(128, 128, 128, 1);
+}
+.add-add-shift-buttons {
+  width: 100px;
+  height: 47px;
+  gap: 8px;
+  border-radius: 8px;
+  border-width: 1px;
+  border: 1px solid rgba(8, 140, 3, 1);
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.add-buttons {
+  background-color: transparent;
+  border: none;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: 'Semi Bold';
+  font-size: 16px;
+  line-height: 24%;
+  letter-spacing: 0.1%;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(8, 140, 3, 1);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.decrement-increment-contianer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.product-quantity {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24%;
+  letter-spacing: 0.1%;
+  text-align: center;
+  vertical-align: middle;
+  color: rgba(8, 140, 3, 1);
+}
+.product-decrement-count {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: rgba(8, 140, 3, 1);
+  cursor: pointer;
+}
+.product-increment-count {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: rgba(8, 140, 3, 1);
+  cursor: pointer;
+}

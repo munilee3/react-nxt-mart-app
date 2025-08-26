@@ -21,7 +21,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 16px 80px;
-    background-color: f7f7f7;
+    background-color: #f7f7f7;
+    height: 100px;
   }
   .website-logo {
     width: 100px;
@@ -40,6 +41,7 @@
     margin-right: 30px;
     font-size: 18px;
     text-decoration: none;
+    list-style: none;
   }
   .logout-button {
     display: flex;
